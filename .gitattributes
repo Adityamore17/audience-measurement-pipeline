@@ -1,0 +1,6 @@
+# Keep Unix line endings so shell scripts run inside Docker/WSL even if cloned on Windows
+*.sh   text eol=lf
+*.sql  text eol=lf
+*.py   text eol=lf
+*.yml  text eol=lf
+.env*  text eol=lf
